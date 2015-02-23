@@ -78,3 +78,34 @@ $('.mask').css('height',alto);
 $('.mapa-grande').css('height',alto);
 $(".closeSession").css('top', alto - 40);
 
+
+// Swipe
+
+$(function() {
+  //Enable swiping...
+  $("#test").swipe( {
+    //Generic swipe handler for all directions
+    swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+      $(this).text("You swiped " + direction );
+    },
+    //Default is 75px, set to 0 for demo so any distance triggers swipe
+     threshold: 75
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

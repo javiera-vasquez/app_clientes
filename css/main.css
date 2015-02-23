@@ -57,7 +57,7 @@ body {
   clear: both;
 }
 .button {
-  background: #1d93bc;
+  background: #ea8408;
   border: none;
   color: #fff;
   margin: 0 auto;
@@ -74,7 +74,7 @@ body {
   text-decoration: none;
 }
 .button:focus {
-  background-color: #2eaee5;
+  background-color: #ea8408;
   color: #fff;
   text-decoration: none;
 }
@@ -82,7 +82,7 @@ body {
   width: 85%;
 }
 .button.history {
-  background-color: #2eaee5;
+  background-color: #ea8408;
 }
 .no-padding-top {
   padding-top: 0 !important;
@@ -260,7 +260,7 @@ div.formulario-mapa div.actual {
   bottom: 20px;
   background: url("../img/actual.svg") no-repeat center center;
   background-size: 40px;
-  background-color: #2eaee5;
+  background-color: #ea8408;
 }
 #mapa {
   width: 100%;
@@ -298,7 +298,7 @@ div.formulario-mapa div.actual {
   text-align: center;
   margin: 20px 0 10px 0;
   font-size: 1.4em;
-  color: #2eaee5;
+  color: #ea8408;
 }
 .container div.field {
   padding: 0 5px;
@@ -642,7 +642,7 @@ div.formulario-mapa div.actual {
   display: block;
   float: right;
   width: 48%;
-  background: #1d93bc;
+  background: #ea8408;
   text-align: center;
   line-height: 40px;
   color: #fff;
@@ -657,7 +657,7 @@ div.formulario-mapa div.actual {
   margin: 0;
 }
 .container .buttons-orden div p:focus {
-  background: #2eaee5;
+  background: #ea8408;
   text-decoration: none;
 }
 .container .buttons-orden div .detalles-ocultos {
@@ -671,7 +671,7 @@ div.formulario-mapa div.actual {
   border-top: 1px solid #fff;
 }
 .container .buttons-orden div .detalles-ocultos a:focus {
-  background: #2eaee5;
+  background: #ea8408;
   text-decoration: none;
 }
 .container .buttons-orden div.detalles {
@@ -843,4 +843,8 @@ section.container.historial article time {
 small,
 .small {
   font-size: 90%;
+}
+#test {
+  height: 800px;
+  width: 800px;
 }
