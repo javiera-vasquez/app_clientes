@@ -135,10 +135,38 @@ body.login .container .checkbox label {
 body.login .container .checkbox input {
   line-height: 14px;
 }
+/* Recover password */
+body.recover .container {
+  margin-top: 25px;
+}
+body.recover .container p,
+body.recover .container input {
+  margin-bottom: 20px;
+}
+#recorverPass .modal-content {
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+#recorverPass .modal-dialog {
+  width: 80%;
+  margin: 150px auto 0;
+}
+#recorverPass .modal-dialog .close-modal {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #ea8408;
+}
+#recorverPass .modal-dialog p {
+  text-align: center;
+}
 /* Header */
 header {
   width: 100%;
-  height: 50px;
+  height: 60px;
   background: #000;
   position: fixed;
   z-index: 5;
@@ -167,7 +195,7 @@ header a.button-left.reloj {
 header h1 {
   color: #fff;
   text-align: center;
-  margin: 0;
+  margin: 6px 0 0;
   font-size: 1.2em;
   line-height: 50px;
   display: block;
@@ -189,8 +217,7 @@ header .menu {
   width: 50px;
   height: 50px;
   position: absolute;
-  right: 0;
-  top: 0;
+  top: 5px;
   cursor: pointer;
 }
 header .menu img {

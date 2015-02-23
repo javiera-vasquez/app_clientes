@@ -79,6 +79,8 @@ $('.mapa-grande').css('height',alto);
 $(".closeSession").css('top', alto - 40);
 
 
+
+
 // Swipe
 // $(function() {
 //   //Enable swiping...
