@@ -103,6 +103,7 @@ body.login {
 }
 body.login .container {
   width: 80%;
+  margin-top: 5%;
 }
 body.login .container .logo {
   width: 35%;
@@ -114,12 +115,25 @@ body.login .container input {
 }
 body.login .container .button {
   margin-top: 25px;
+  background-color: #c9163a;
 }
 body.login .container p {
-  font-size: 0.8em;
-  color: #999;
-  margin-top: 10px;
+  font-size: 1em;
+  margin-top: 40px;
   text-align: center;
+}
+body.login .container p a {
+  color: #fff;
+}
+body.login .container .checkbox {
+  margin-top: 10px;
+}
+body.login .container .checkbox label {
+  font-size: 1em;
+  color: #fff;
+}
+body.login .container .checkbox input {
+  line-height: 14px;
 }
 /* Header */
 header {
@@ -303,18 +317,23 @@ div.formulario-mapa div.actual {
 .container div.field {
   padding: 0 5px;
 }
-.container input,
+.container input[type="text"],
+.container input[type="password"],
 .container textarea {
   width: 100%;
   padding: 0 10px;
   font-size: 0.9em;
   height: 36px;
   line-height: 36px;
-  font-style: italic;
   margin-bottom: 5px;
   -webkit-appearance: none;
   border-radius: 0;
   border: 1px solid #999;
+}
+.container input[type="text"]:focus,
+.container input[type="password"]:focus,
+.container textarea:focus {
+  outline: none;
 }
 .container ::-webkit-input-placeholder {
   color: #666;

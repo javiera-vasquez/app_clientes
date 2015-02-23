@@ -1,5 +1,7 @@
 /* Variables */
 transition-speed = all 0.2s linear
+white = #fff
+black = #000
 color-principal = #ea8408
 color-secundario = #c9163a
 color-principal-2 = #ea8408
@@ -80,9 +82,10 @@ body
 	float left
 /* Login */
 body.login
-	background #000
+	background black
 	.container
 		width 80%
+		margin-top 5%
 		.logo
 			width 35%
 			margin 0 auto
@@ -91,11 +94,20 @@ body.login
 			margin-bottom -1px
 		.button
 			margin-top 25px
+			background-color color-secundario
 		p
-			font-size 0.8em
-			color #999
-			margin-top 10px
+			font-size 1em
+			margin-top 40px
 			text-align center
+			a
+				color white
+		.checkbox
+			margin-top 10px
+			label
+				font-size 1em
+				color white
+			input
+				line-height 14px
 
 /* Header */
 header
@@ -252,17 +264,19 @@ div.formulario-mapa
 		color color-principal
 	div.field
 		padding 0 5px
-	input, textarea
+	input[type="text"], input[type="password"], textarea
 		width 100%
 		padding 0 10px
 		font-size 0.9em
 		height 36px
 		line-height 36px
-		font-style italic
+		// font-style italic
 		margin-bottom 5px
 		-webkit-appearance none
 		border-radius 0
 		border 1px solid #999
+		&:focus
+			outline none
 	::-webkit-input-placeholder /* WebKit browsers */
     	color #666
 
