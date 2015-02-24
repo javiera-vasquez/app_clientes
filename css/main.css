@@ -14,6 +14,7 @@ h5,
 h6,
 p {
   line-height: 1.45;
+  color: #1e1e1e;
 }
 h1 {
   font-size: 2.2em;
@@ -35,6 +36,7 @@ h6 {
 }
 p {
   font-size: 1.1em;
+  color: #474747;
 }
 b {
   font-weight: bolder !important;
@@ -47,6 +49,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   overflow-x: hidden !important;
+  color: #1e1e1e;
 }
 .wrapper {
   width: 90%;
@@ -117,6 +120,10 @@ body.login .container .button {
   margin-top: 25px;
   background-color: #c9163a;
 }
+body.login .container .button:focus,
+body.login .container .button:hover {
+  background-color: #aa173a;
+}
 body.login .container p {
   font-size: 1em;
   margin-top: 40px;
@@ -134,34 +141,6 @@ body.login .container .checkbox label {
 }
 body.login .container .checkbox input {
   line-height: 14px;
-}
-/* Recover password */
-body.recover .container {
-  margin-top: 25px;
-}
-body.recover .container p,
-body.recover .container input {
-  margin-bottom: 20px;
-}
-#recorverPass .modal-content {
-  border-radius: 0;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.25);
-}
-#recorverPass .modal-dialog {
-  width: 80%;
-  margin: 150px auto 0;
-}
-#recorverPass .modal-dialog .close-modal {
-  width: 100%;
-  padding: 12px 0;
-  border: none;
-  color: #fff;
-  font-size: 1em;
-  font-weight: bold;
-  background-color: #ea8408;
-}
-#recorverPass .modal-dialog p {
-  text-align: center;
 }
 /* Header */
 header {
@@ -196,7 +175,7 @@ header h1 {
   color: #fff;
   text-align: center;
   margin: 6px 0 0;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 50px;
   display: block;
 }
@@ -204,10 +183,10 @@ header h1 span {
   position: relative;
 }
 header span.logo {
-  width: 30px;
+  width: 35px;
   display: block;
   position: absolute;
-  left: -35px;
+  left: -45px;
   top: -15px;
 }
 header span.logo img {
@@ -229,6 +208,78 @@ header .menu img {
 header .close-menu {
   display: none;
   background: #505d65;
+}
+/* Recover password */
+body.recover .container {
+  margin-top: 20px;
+}
+body.recover .container p,
+body.recover .container input {
+  margin-bottom: 20px;
+}
+#recorverPass .modal-content {
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+#recorverPass .modal-dialog {
+  width: 80%;
+  margin: 150px auto 0;
+}
+#recorverPass .modal-dialog .close-modal {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #ea8408;
+}
+#recorverPass .modal-dialog p {
+  text-align: center;
+}
+/* dashboard */
+body.dashboard div.info.usuario {
+  border-bottom: none;
+  padding-left: 0;
+  padding-right: 80px;
+}
+body.dashboard div.info.usuario .right {
+  position: absolute;
+  right: 50px;
+  margin-top: 5px;
+}
+.loop-options {
+  border-top: 1px solid #ddd;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.loop-options ul {
+  margin: 0;
+  padding: 0;
+}
+.loop-options ul li {
+  width: 50%;
+  text-align: center;
+  float: left;
+  margin: 0;
+  list-style: none;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-right: none;
+  padding: 15px 0;
+}
+.loop-options ul li:focus,
+.loop-options ul li:hover {
+  background-color: #ddd;
+}
+.loop-options ul li a {
+  color: #000;
+  display: block;
+}
+.loop-options ul li img {
+  width: 25%;
+  margin: 0 auto 10px;
 }
 /* Container */
 .mask {
@@ -332,7 +383,7 @@ div.formulario-mapa div.actual {
   color: #fff;
 }
 .container {
-  padding-top: 50px;
+  padding-top: 65px;
 /* Resultado */
 }
 .container h3 {
@@ -612,32 +663,49 @@ div.formulario-mapa div.actual {
   background-color: #64257d;
   color: #a6c847;
 }
-.container div.info.contactos {
+.container div.info.contactos,
+.container div.info.usuario {
   background: none !important;
 }
-.container div.info.contactos span.icon-status {
+.container div.info.contactos span.icon-status,
+.container div.info.usuario span.icon-status {
   background-size: 30px;
   background-color: #64257d;
   color: #a6c847;
   background-repeat: no-repeat;
   background-position: center;
 }
-.container div.info.contactos span.icon-status.contacto-telefonico {
+.container div.info.contactos span.icon-status.usuario,
+.container div.info.usuario span.icon-status.usuario {
+  background-color: #44b285;
+  background-image: url("../img/cliente.svg");
+}
+.container div.info.contactos span.icon-status.cliente,
+.container div.info.usuario span.icon-status.cliente {
+  background-image: url("../img/cliente.svg");
+}
+.container div.info.contactos span.icon-status.contacto-telefonico,
+.container div.info.usuario span.icon-status.contacto-telefonico {
   background-image: url("../img/tel.svg");
 }
-.container div.info.contactos span.icon-status.contacto-web {
+.container div.info.contactos span.icon-status.contacto-web,
+.container div.info.usuario span.icon-status.contacto-web {
   background-image: url("../img/web.svg");
 }
-.container div.info.contactos span.icon-status.contacto-twitter {
+.container div.info.contactos span.icon-status.contacto-twitter,
+.container div.info.usuario span.icon-status.contacto-twitter {
   background-image: url("../img/twitter.svg");
 }
-.container div.info.contactos span.icon-status.contacto-facebook {
+.container div.info.contactos span.icon-status.contacto-facebook,
+.container div.info.usuario span.icon-status.contacto-facebook {
   background-image: url("../img/facebook.svg");
 }
-.container div.info.contactos span.icon-status.servicio-tecnico {
+.container div.info.contactos span.icon-status.servicio-tecnico,
+.container div.info.usuario span.icon-status.servicio-tecnico {
   background-image: url("../img/servicio-tecnico.svg");
 }
-.container div.info.contactos span.icon-status.instalacion {
+.container div.info.contactos span.icon-status.instalacion,
+.container div.info.usuario span.icon-status.instalacion {
   background-image: url("../img/instalacion.svg");
 }
 .container div.info span.status-orden {

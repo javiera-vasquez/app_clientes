@@ -5,6 +5,7 @@ black = #000
 color-principal = #ea8408
 color-secundario = #c9163a
 color-principal-2 = #ea8408
+ccc = #ddd
 
 @font-face {
   font-family: 'NeoSans';
@@ -15,7 +16,9 @@ color-principal-2 = #ea8408
 }
 
 h1,h2,h3,h4,h5,h6,p
- line-height: 1.45
+	line-height: 1.45
+	color #1e1e1e
+
 
 h1
 	font-size: 2.2em
@@ -31,7 +34,7 @@ h6
 	font-size: 1.1em
 p
 	font-size: 1.1em
-
+	color #474747
 b
 	font-weight bolder !important
 html
@@ -41,6 +44,7 @@ body
 	font-family: 'Open Sans', sans-serif;
 	font-size 20px
 	overflow-x hidden!important
+	color #1e1e1e
 .wrapper
 	width 90%
 	margin 0 auto
@@ -95,6 +99,8 @@ body.login
 		.button
 			margin-top 25px
 			background-color color-secundario
+			&:focus, &:hover
+				background-color #aa173a
 		p
 			font-size 1em
 			margin-top 40px
@@ -108,32 +114,6 @@ body.login
 				color white
 			input
 				line-height 14px
-
-/* Recover password */
-body.recover
-	.container
-		margin-top 25px
-		p, input
-			margin-bottom 20px
-
-#recorverPass
-	.modal-content
-		border-radius 0
-		box-shadow 0 2px 5px rgba(0, 0, 0, .25)
-	.modal-dialog
-		width 80%
-		margin 150px auto 0
-		.close-modal
-			width 100%
-			padding 12px 0
-			border none
-			color white
-			font-size 1em
-			font-weight bold
-			background-color color-principal
-		p
-			text-align center
-
 
 /* Header */
 header
@@ -164,16 +144,16 @@ header
 		color #FFF
 		text-align center
 		margin 6px 0 0
-		font-size 1.2em
+		font-size 1.1em
 		line-height 50px
 		display block
 		span
 			position relative
 	span.logo
-		width 30px
+		width 35px
 		display block
 		position absolute
-		left -35px
+		left -45px
 		top -15px
 		img
 			width 100%
@@ -192,6 +172,73 @@ header
 	.close-menu
 		display none
 		background #505d65
+
+/* Recover password */
+body.recover
+	.container
+		margin-top 20px
+		p, input
+			margin-bottom 20px
+
+
+#recorverPass
+	.modal-content
+		border-radius 0
+		box-shadow 0 2px 5px rgba(0, 0, 0, .25)
+	.modal-dialog
+		width 80%
+		margin 150px auto 0
+		.close-modal
+			width 100%
+			padding 12px 0
+			border none
+			color white
+			font-size 1em
+			font-weight bold
+			background-color color-principal
+		p
+			text-align center
+
+
+/* dashboard */
+body.dashboard
+	div.info.usuario
+		border-bottom none
+		padding-left 0
+		padding-right 80px
+		.right
+			position absolute
+			right 50px
+			margin-top 5px
+
+
+.loop-options
+	border-top 1px solid #ddd
+	position absolute
+	width 100%
+	bottom 0
+	ul
+		margin 0
+		padding 0
+		li
+			width 50%
+			text-align center
+			float left
+			margin 0
+			list-style none
+			border 1px solid #ddd
+			border-top none
+			border-right none
+			padding 15px 0
+			&:focus, &:hover
+				background-color ccc
+			a
+				color black
+				display block
+			img
+				width 25%
+				margin 0 auto 10px
+
 
 /* Container */
 .mask
@@ -246,7 +293,6 @@ div.formulario-mapa
 	margin-top 30px
 	span
 		margin-bottom 10px
-
 	div.actual
 		width 50px
 		height 50px
@@ -282,7 +328,7 @@ div.formulario-mapa
 		a
 			color #FFF
 .container
-	padding-top 50px
+	padding-top 65px
 	h3
 		text-align center
 		margin 20px 0 10px 0
@@ -525,7 +571,7 @@ div.formulario-mapa
 			background-color #64257d
 			color #a6c847
 
-	div.info.contactos
+	div.info.contactos, div.info.usuario
 		background none !important
 		span.icon-status
 			background-size 30px
@@ -533,6 +579,11 @@ div.formulario-mapa
 			color #a6c847
 			background-repeat no-repeat
 			background-position center
+		span.icon-status.usuario
+			background-color #44b285
+			background-image url('../img/cliente.svg')
+		span.icon-status.cliente
+			background-image url('../img/cliente.svg')
 		span.icon-status.contacto-telefonico
 			background-image url('../img/tel.svg')
 		span.icon-status.contacto-web
