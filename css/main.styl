@@ -173,6 +173,66 @@ header
 		display none
 		background #505d65
 
+
+/* Header +  off canvas */
+.navbar
+	text-align center
+	height 60px
+	.navbar-brand
+		float none
+		display inline-block
+		color white
+		height 60px
+		margin 0
+		padding 20px 0
+		margin-left -50px
+		img
+			height 30px
+			margin-top -4px
+	.navbar-toggle
+		float left
+		margin-right 0
+		border none
+		padding 0 15px
+		margin 0
+		height 60px
+		border-radius 0
+		.icon-bar
+			background-color white
+
+.navbar-default
+	background-color black
+	border-bottom none
+
+.navmenu-default
+	background-color #505d65
+	border-color #414c51
+	.navmenu-nav
+		margin-top 70px
+		a
+			line-height 25px
+		li img
+			width 25px
+			margin-right 5px
+			margin-top -3px
+	.logout
+		width 100%
+		text-align center
+		position absolute
+		bottom 0
+		a
+			color #c9c9c9
+			font-size 14px
+			text-decoration underline
+
+
+.navmenu-default .navmenu-nav > li > a, .navbar-default .navbar-offcanvas .navmenu-nav > li > a
+	color white
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
+	border none
+	background-color #505d65
+
 /* Recover password */
 body.recover
 	.container
@@ -238,6 +298,9 @@ body.dashboard
 			img
 				width 25%
 				margin 0 auto 10px
+
+
+
 
 
 /* Container */

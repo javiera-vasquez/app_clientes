@@ -209,6 +209,75 @@ header .close-menu {
   display: none;
   background: #505d65;
 }
+/* Header +  off canvas */
+.navbar {
+  text-align: center;
+  height: 60px;
+}
+.navbar .navbar-brand {
+  float: none;
+  display: inline-block;
+  color: #fff;
+  height: 60px;
+  margin: 0;
+  padding: 20px 0;
+  margin-left: -50px;
+}
+.navbar .navbar-brand img {
+  height: 30px;
+  margin-top: -4px;
+}
+.navbar .navbar-toggle {
+  float: left;
+  margin-right: 0;
+  border: none;
+  padding: 0 15px;
+  margin: 0;
+  height: 60px;
+  border-radius: 0;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-default {
+  background-color: #000;
+  border-bottom: none;
+}
+.navmenu-default {
+  background-color: #505d65;
+  border-color: #414c51;
+}
+.navmenu-default .navmenu-nav {
+  margin-top: 70px;
+}
+.navmenu-default .navmenu-nav a {
+  line-height: 25px;
+}
+.navmenu-default .navmenu-nav li img {
+  width: 25px;
+  margin-right: 5px;
+  margin-top: -3px;
+}
+.navmenu-default .logout {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.navmenu-default .logout a {
+  color: #c9c9c9;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.navmenu-default .navmenu-nav > li > a,
+.navbar-default .navbar-offcanvas .navmenu-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  border: none;
+  background-color: #505d65;
+}
 /* Recover password */
 body.recover .container {
   margin-top: 20px;

@@ -17,11 +17,15 @@
     </head>
 
     <body class="dashboard">
-        <header>
-            <div class="wrapper">
-                <h1> <span ><span class="logo"><img src="img/logo-vtr.svg" /></span>Mi VTR</span></h1>
-            </div>
-        </header>
+
+        <div class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h3 class="navbar-brand" ><img src="img/logo-vtr.svg" /> Mi VTR</h3>
+        </div>
 
         <section class="container wrapper">
             <div class="row">
@@ -47,8 +51,7 @@
             </ul>
         </section>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/flowtype.js"></script>
         <script src="js/main.js"></script>
