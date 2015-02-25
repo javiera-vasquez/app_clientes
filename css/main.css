@@ -326,7 +326,6 @@ body.dashboard div.info.usuario .right {
 }
 /* Icon setup */
 .icon {
-  float: left;
   height: 50px;
   width: 50px;
   background-position: center;
@@ -341,3 +340,98 @@ body.dashboard div.info.usuario .right {
   background-size: 30px;
 }
 /* Detail accounts */
+.info-account {
+  margin-bottom: 25px;
+}
+.info-account .date {
+  text-align: right;
+  font-size: 80%;
+}
+.info-account .icon-container {
+  float: left;
+  width: 22%;
+  height: 55px;
+}
+.info-account .dropdown {
+  float: left;
+  width: 78%;
+}
+.info-account .dropdown h3 {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 110%;
+  line-height: 1.4;
+  padding: 4px 20px 4px 8px;
+  border: 2px solid #ea8408;
+  background: url("../img/arrow-down.svg") no-repeat 96% 50%;
+  background-size: 15px;
+}
+.info-account .dropdown h3:hover {
+  background-color: #fff;
+}
+.info-account .dropdown ul {
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  margin-top: -2px;
+  border: 2px solid #ea8408;
+}
+.info-account .dropdown ul li {
+  padding: 4px 8px;
+  list-style: none;
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid #ea8408;
+  font-size: 100%;
+}
+.info-account .dropdown ul li:last-child {
+  border-bottom: none;
+}
+.info-account .dropdown ul li:hover {
+  background-color: #ddd;
+}
+.info-account .dropdown.whit-no-drop h3 {
+  border: none;
+  background: none;
+  padding-right: 8px;
+}
+.info-account .dropdown.whit-no-drop ul li:hover {
+  background: none;
+}
+.detail-account {
+  background-color: #f0f0f2;
+  border-top: 1px solid #ddd;
+  margin-bottom: 25px;
+}
+.detail-account .clearfix {
+  padding: 10px 5% 0;
+  border-bottom: 1px solid #ddd;
+}
+.detail-account p.left {
+  width: 70%;
+  font-size: 100%;
+}
+.detail-account p.right {
+  width: 25%;
+  text-align: right;
+}
+.detail-account strong {
+  width: 20%;
+  color: #ea8408;
+}
+.paybox p,
+.paybox h3 {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.paybox .price {
+  font-size: 250%;
+  color: #ea8408;
+}
+.paybox .button {
+  margin: 25px 0;
+}
