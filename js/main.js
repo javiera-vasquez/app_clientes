@@ -7,6 +7,17 @@ $('body').flowtype({
     fontRatio : 30
 });
 
+// Dropdown
+$('.dropdown h3').on('click', function(){
+    $('.dropdown ul').slideToggle("fast");
+});
+
+// Deselect dropdown on lick outside the drop
+$('.detail-account, .paybox').on('click', function() {
+    if($('.dropdown ul').is(":visible") == true) {
+        $('.dropdown ul').hide();
+    }
+})
 
 
 // Swipe

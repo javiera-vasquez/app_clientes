@@ -253,6 +253,41 @@ body.login .container .checkbox input {
   border: none;
   background-color: #505d65;
 }
+/*  Second lvl navigation */
+body .container.second-nav {
+  padding-top: 60px;
+  width: 100%;
+}
+.second-nav {
+  background-color: #979797;
+}
+.second-nav ul {
+  margin: 0;
+  padding: 0;
+  height: 45px;
+}
+.second-nav ul li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  text-align: center;
+  color: #e2e2e2;
+  font-size: 120%;
+  padding: 10px 10px 12px;
+}
+.second-nav ul li span {
+  padding: 10px;
+  border-bottom: 6px solid #979797;
+}
+.second-nav ul .active {
+  color: #fff;
+  font-weight: bold;
+}
+.second-nav ul .active span {
+  border-color: #ea8408;
+}
 /* Recover password */
 body.recover .container p,
 body.payId .container p,
@@ -337,7 +372,7 @@ body.dashboard .container {
   font-size: 85%;
 }
 .loop-options ul li img {
-  width: 25%;
+  width: 30%;
   margin: 0 auto 10px;
 }
 /* Icon setup */
@@ -399,8 +434,8 @@ body.dashboard .container {
   margin: 0;
   padding: 0;
   background: #fff;
-  margin-top: -2px;
   border: 2px solid #ea8408;
+  border-top: none;
 }
 .info-account .dropdown ul li,
 .user-detail .dropdown ul li {
@@ -429,7 +464,7 @@ body.dashboard .container {
 .user-detail .dropdown.whit-no-drop ul li:hover {
   background: none;
 }
-/* Dashboard  login box*/
+/* Dashboard  + login box*/
 .user-detail p,
 .user-detail h4,
 .user-detail h2 {
