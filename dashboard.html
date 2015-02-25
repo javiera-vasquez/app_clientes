@@ -23,29 +23,30 @@
           <h3 class="navbar-brand" ><img src="img/logo-vtr.svg" /> Mi VTR</h3>
         </div>
 
-        <section class="container wrapper">
-            <div class="row">
-
-                <div class="info usuario">
-                    <div class="right"><span class="icon-status usuario"></span></div>
-                    <p><small>Hola</small></p>
-                    <h2>Alejandro Montenegro</h2>
-                    <br />
-                    <p><small>Tu última boleta está disponible </small></p>
-                    <p><small>Total <strong>$59.260</strong></small></p>
-                </div>
-
+        <div id="fix-to-bottom">
+          <section class="container">
+            <div class="user-detail clearfix">
+              <div class="dropdown whit-no-drop">
+                <h2>Hola</h2>
+                <h4><strong>Alejandro Montenegro</strong></h4>
+                <p><small>Tu última boleta está disponible </small></p>
+                <p><small>Total <strong>$59.260</strong></small></p>
+              </div>
+              <div class="icon-container">
+                <p><img src="img/user.jpg"></p>
+              </div>
             </div>
-        </section>
 
-        <section class="loop-options clearfix">
-            <ul>
-                <li><a href="intake.html"><img src="img/intake.svg" /><br />Mi Consumo</a></li>
-                <li><a href="pay.html"><img src="img/pay.svg" /><br />Pagar mi cuenta</a></li>
-                <li><a href="product.html"><img src="img/product.svg" /><br />Mis productos</a></li>
-                <li><a href="payid.html"><img src="img/payid.svg" /><br />Pagar con rut</a></li>
-            </ul>
-        </section>
+            <h2 class="today">¿Qué quieres consultar?</h2>
+            <section class="loop-options clearfix">
+                <ul>
+                    <li><a href="intake.html"><img src="img/intake.svg" /><br />Mi Saldo Móvil</a></li>
+                    <li><a href="pay.html"><img src="img/pay.svg" /><br />Pagar boleta</a></li>
+                    <li><a href="product.html"><img src="img/product.svg" /><br />Mis productos</a></li>
+                </ul>
+            </section>
+          </section>
+        </div>
 
         <script src="js/vendor/jquery.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>

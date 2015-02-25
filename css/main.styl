@@ -242,27 +242,44 @@ body.recover, body.payId
 
 
 /* dashboard */
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
 body.dashboard
-	div.info.usuario
-		border-bottom none
-		padding-left 0
-		padding-right 80px
-		.right
-			position absolute
-			right 50px
-			margin-top 5px
+	width 100%
+	background-color red
+	background-image: url(../img/Fondo_LogosVTR.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	-webkit-animation: animatedBackground 35s linear infinite;
+	-ms-animation animatedBackground 35s linear infinite;
+	-moz-animation animatedBackground 35s linear infinite;
+	.container
+		padding-top 0
 
-
-.loop-options
-	border-top 1px solid #ddd
+#fix-to-bottom
 	position absolute
 	width 100%
 	bottom 0
+	background-color white
+	padding-top 25px
+	.today
+		text-align center
+		color #8c8c8c
+		font-size 125%
+		margin-top 14%
+
+.loop-options
+	border-top 1px solid #ddd
+	border-right 1px solid #ddd
+	margin-bottom 15%
 	ul
 		margin 0
 		padding 0
 		li
-			width 50%
+			width 33.33333%
 			text-align center
 			float left
 			margin 0
@@ -276,6 +293,7 @@ body.dashboard
 			a
 				color black
 				display block
+				font-size 85%
 			img
 				width 25%
 				margin 0 auto 10px
@@ -296,8 +314,7 @@ body.dashboard
 	background-size 30px
 
 /* Detail accounts */
-
-.info-account
+.info-account, .user-detail
 	margin-bottom 25px
 	.date
 		text-align right
@@ -348,6 +365,28 @@ body.dashboard
 			padding-right 8px
 		ul li:hover
 			background none
+
+/* Dashboard  login box*/
+.user-detail
+	p, h4, h2
+		line-height 1.5
+		margin 0
+	h2
+		font-size 150%
+	h4
+		margin-bottom 15px
+		font-size 125%
+	.dropdown
+		width 75%
+	.icon-container
+		width 25%
+		p
+			margin 0
+			text-align right
+		img
+
+			border-radius 1000px
+			width 90%
 
 
 .detail-account

@@ -281,28 +281,43 @@ body.payId .container input {
   text-align: center;
 }
 /* dashboard */
-body.dashboard div.info.usuario {
-  border-bottom: none;
-  padding-left: 0;
-  padding-right: 80px;
+body.dashboard {
+  width: 100%;
+  background-color: #f00;
+  background-image: url("../img/Fondo_LogosVTR.png");
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  -webkit-animation: animatedBackground 35s linear infinite;
+  -ms-animation: animatedBackground 35s linear infinite;
+  -moz-animation: animatedBackground 35s linear infinite;
 }
-body.dashboard div.info.usuario .right {
-  position: absolute;
-  right: 50px;
-  margin-top: 5px;
+body.dashboard .container {
+  padding-top: 0;
 }
-.loop-options {
-  border-top: 1px solid #ddd;
+#fix-to-bottom {
   position: absolute;
   width: 100%;
   bottom: 0;
+  background-color: #fff;
+  padding-top: 25px;
+}
+#fix-to-bottom .today {
+  text-align: center;
+  color: #8c8c8c;
+  font-size: 125%;
+  margin-top: 14%;
+}
+.loop-options {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  margin-bottom: 15%;
 }
 .loop-options ul {
   margin: 0;
   padding: 0;
 }
 .loop-options ul li {
-  width: 50%;
+  width: 33.33333%;
   text-align: center;
   float: left;
   margin: 0;
@@ -319,6 +334,7 @@ body.dashboard div.info.usuario .right {
 .loop-options ul li a {
   color: #000;
   display: block;
+  font-size: 85%;
 }
 .loop-options ul li img {
   width: 25%;
@@ -340,23 +356,28 @@ body.dashboard div.info.usuario .right {
   background-size: 30px;
 }
 /* Detail accounts */
-.info-account {
+.info-account,
+.user-detail {
   margin-bottom: 25px;
 }
-.info-account .date {
+.info-account .date,
+.user-detail .date {
   text-align: right;
   font-size: 80%;
 }
-.info-account .icon-container {
+.info-account .icon-container,
+.user-detail .icon-container {
   float: left;
   width: 22%;
   height: 55px;
 }
-.info-account .dropdown {
+.info-account .dropdown,
+.user-detail .dropdown {
   float: left;
   width: 78%;
 }
-.info-account .dropdown h3 {
+.info-account .dropdown h3,
+.user-detail .dropdown h3 {
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -367,10 +388,12 @@ body.dashboard div.info.usuario .right {
   background: url("../img/arrow-down.svg") no-repeat 96% 50%;
   background-size: 15px;
 }
-.info-account .dropdown h3:hover {
+.info-account .dropdown h3:hover,
+.user-detail .dropdown h3:hover {
   background-color: #fff;
 }
-.info-account .dropdown ul {
+.info-account .dropdown ul,
+.user-detail .dropdown ul {
   display: none;
   position: absolute;
   margin: 0;
@@ -379,7 +402,8 @@ body.dashboard div.info.usuario .right {
   margin-top: -2px;
   border: 2px solid #ea8408;
 }
-.info-account .dropdown ul li {
+.info-account .dropdown ul li,
+.user-detail .dropdown ul li {
   padding: 4px 8px;
   list-style: none;
   width: 100%;
@@ -387,19 +411,51 @@ body.dashboard div.info.usuario .right {
   border-bottom: 2px solid #ea8408;
   font-size: 100%;
 }
-.info-account .dropdown ul li:last-child {
+.info-account .dropdown ul li:last-child,
+.user-detail .dropdown ul li:last-child {
   border-bottom: none;
 }
-.info-account .dropdown ul li:hover {
+.info-account .dropdown ul li:hover,
+.user-detail .dropdown ul li:hover {
   background-color: #ddd;
 }
-.info-account .dropdown.whit-no-drop h3 {
+.info-account .dropdown.whit-no-drop h3,
+.user-detail .dropdown.whit-no-drop h3 {
   border: none;
   background: none;
   padding-right: 8px;
 }
-.info-account .dropdown.whit-no-drop ul li:hover {
+.info-account .dropdown.whit-no-drop ul li:hover,
+.user-detail .dropdown.whit-no-drop ul li:hover {
   background: none;
+}
+/* Dashboard  login box*/
+.user-detail p,
+.user-detail h4,
+.user-detail h2 {
+  line-height: 1.5;
+  margin: 0;
+}
+.user-detail h2 {
+  font-size: 150%;
+}
+.user-detail h4 {
+  margin-bottom: 15px;
+  font-size: 125%;
+}
+.user-detail .dropdown {
+  width: 75%;
+}
+.user-detail .icon-container {
+  width: 25%;
+}
+.user-detail .icon-container p {
+  margin: 0;
+  text-align: right;
+}
+.user-detail .icon-container img {
+  border-radius: 1000px;
+  width: 90%;
 }
 .detail-account {
   background-color: #f0f0f2;
@@ -434,4 +490,36 @@ body.dashboard div.info.usuario .right {
 }
 .paybox .button {
   margin: 25px 0;
+}
+@-moz-keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@-o-keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
 }
