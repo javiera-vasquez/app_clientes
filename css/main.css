@@ -91,9 +91,11 @@ small,
   color: #fff;
   text-decoration: none;
 }
-/* Container */
 body .container:first-of-type {
-  padding-top: 80px;
+  padding-top: 70px;
+}
+body .slide .container:first-of-type {
+  padding-top: 0;
 }
 .container div.field {
   padding: 0 5px;
@@ -129,7 +131,6 @@ body .container:first-of-type {
 .container :-ms-input-placeholder {
   color: #666;
 }
-/* Login */
 body.login {
   background: #000;
 }
@@ -172,7 +173,6 @@ body.login .container .checkbox label {
 body.login .container .checkbox input {
   line-height: 14px;
 }
-/* Header +  off canvas */
 .navbar {
   text-align: center;
   height: 60px;
@@ -253,7 +253,6 @@ body.login .container .checkbox input {
   border: none;
   background-color: #505d65;
 }
-/*  Second lvl navigation */
 body .container.second-nav {
   padding-top: 60px;
   width: 100%;
@@ -271,7 +270,6 @@ body .container.second-nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 50%;
   text-align: center;
   color: #e2e2e2;
   font-size: 120%;
@@ -288,7 +286,12 @@ body .container.second-nav {
 .second-nav ul .active span {
   border-color: #ea8408;
 }
-/* Recover password */
+.second-nav.two-element li {
+  width: 50%;
+}
+.second-nav.three-element li {
+  width: 33.333333%;
+}
 body.recover .container p,
 body.payId .container p,
 body.recover .container input,
@@ -315,7 +318,6 @@ body.payId .container input {
 #recorverPass .modal-dialog p {
   text-align: center;
 }
-/* dashboard */
 body.dashboard {
   width: 100%;
   background-color: #f00;
@@ -375,14 +377,13 @@ body.dashboard .container {
   width: 30%;
   margin: 0 auto 10px;
 }
-/* Icon setup */
 .icon {
-  height: 50px;
-  width: 50px;
+  height: 55px;
+  width: 55px;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 1000px;
-  background-size: 30px;
+  background-size: 32px;
 }
 .icon.orange {
   background-color: #ff8300;
@@ -411,7 +412,6 @@ body.dashboard .container {
 .icon.tv {
   background-image: url("../img/tv.svg");
 }
-/* Detail accounts */
 .info-account,
 .user-detail {
   margin-bottom: 25px;
@@ -420,17 +420,18 @@ body.dashboard .container {
 .user-detail .date {
   text-align: right;
   font-size: 80%;
+  margin-top: 10px;
 }
 .info-account .icon-container,
 .user-detail .icon-container {
   float: left;
-  width: 22%;
+  width: 25%;
   height: 55px;
 }
 .info-account .dropdown,
 .user-detail .dropdown {
   float: left;
-  width: 78%;
+  width: 75%;
 }
 .info-account .dropdown h3,
 .user-detail .dropdown h3 {
@@ -452,6 +453,7 @@ body.dashboard .container {
 .user-detail .dropdown ul {
   display: none;
   position: absolute;
+  width: 100%;
   margin: 0;
   padding: 0;
   background: #fff;
@@ -485,7 +487,6 @@ body.dashboard .container {
 .user-detail .dropdown.whit-no-drop ul li:hover {
   background: none;
 }
-/* Dashboard  + login box*/
 .user-detail p,
 .user-detail h4,
 .user-detail h2 {
@@ -533,6 +534,52 @@ body.dashboard .container {
 .detail-account strong {
   width: 20%;
   color: #ea8408;
+}
+.header-loop {
+  font-size: 110%;
+  padding: 0;
+  margin: 0 5% 10px;
+}
+.loop-of-services {
+  background-color: #f0f0f2;
+  border-top: 1px solid #ddd;
+  margin-bottom: 25px;
+}
+.loop-of-services .icon {
+  height: 45px;
+  width: 45px;
+  background-size: 22px;
+}
+.loop-of-services .loop {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 5%;
+}
+.loop-of-services .icon-container {
+  float: left;
+  width: 20%;
+}
+.loop-of-services .info-container {
+  float: left;
+  width: 80%;
+}
+.loop-of-services .info-container h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 120%;
+  font-weight: bold;
+}
+.loop-of-services .info-container ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 15px;
+}
+.slide {
+  float: left;
+  -webkit-animation-duration: 0.5s;
+  width: 100%;
+}
+.slide:nth-child(2) {
+  margin-right: -100%;
 }
 .paybox p,
 .paybox h3 {

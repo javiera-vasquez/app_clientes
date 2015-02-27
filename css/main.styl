@@ -15,10 +15,10 @@ ccc = #ddd
   font-style: normal;
 }
 
+// Base setting of the app
 h1,h2,h3,h4,h5,h6,p
 	line-height: 1.45
 	color #1e1e1e
-
 
 h1
 	font-size: 2.2em
@@ -77,9 +77,12 @@ small, .small
 	text-decoration none
 }
 
-/* Container */
+// Container
 body .container:first-of-type
-	padding-top 80px
+	padding-top 70px
+
+body .slide .container:first-of-type
+	padding-top 0
 
 .container
 	div.field
@@ -111,7 +114,7 @@ body .container:first-of-type
 	:-ms-input-placeholder /* Internet Explorer 10+ */
 	   	color #666
 
-/* Login */
+// Login
 body.login
 	background black
 	.container
@@ -144,7 +147,7 @@ body.login
 				line-height 14px
 
 
-/* Header +  off canvas */
+// Header +  off canvas
 .navbar
 	text-align center
 	height 60px
@@ -213,7 +216,7 @@ body.login
 	background-color #505d65
 
 
-/*  Second lvl navigation */
+//  Second lvl navigation
 body .container.second-nav
 	padding-top 60px
 	width 100%
@@ -221,6 +224,7 @@ body .container.second-nav
 
 .second-nav
 	background-color #979797
+	// position fixed
 	ul
 		margin 0
 		padding 0
@@ -230,7 +234,6 @@ body .container.second-nav
 			list-style none
 			margin 0
 			padding 0
-			width 50%
 			text-align center
 			color #e2e2e2
 			font-size 120%
@@ -244,7 +247,13 @@ body .container.second-nav
 			span
 				border-color color-principal
 
-/* Recover password */
+.second-nav.two-element li
+	width 50%
+
+.second-nav.three-element li
+	width 33.333333%
+
+// Recover password
 body.recover, body.payId
 	.container
 		// padding-top 65px
@@ -272,7 +281,7 @@ body.recover, body.payId
 			text-align center
 
 
-/* dashboard */
+// dashboard
 @keyframes animatedBackground {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
@@ -329,14 +338,14 @@ body.dashboard
 				width 30%
 				margin 0 auto 10px
 
-/* Icon setup */
+// Icon setup
 .icon
-	height 50px
-	width 50px
+	height 55px
+	width 55px
 	background-position center
 	background-repeat no-repeat
 	border-radius 1000px
-	background-size 30px
+	background-size 32px
 
 .icon.orange
 	background-color #ff8300
@@ -358,20 +367,21 @@ body.dashboard
 .icon.tv
 	background-image url(../img/tv.svg)
 
-/* Detail accounts */
+// Detail accounts
 .info-account, .user-detail
 	margin-bottom 25px
 	.date
 		text-align right
 		font-size 80%
+		margin-top 10px
 	.icon-container
 		float left
-		width 22%
+		width 25%
 		height 55px
 	// Dropdown for a pay list
 	.dropdown
 		float left
-		width 78%
+		width 75%
 		h3
 			font-weight bold
 			margin 0
@@ -387,6 +397,7 @@ body.dashboard
 		ul
 			display none
 			position absolute
+			width 100%
 			margin 0
 			padding 0
 			background white
@@ -411,7 +422,7 @@ body.dashboard
 		ul li:hover
 			background none
 
-/* Dashboard  + login box*/
+// Dashboard  + login box
 .user-detail
 	p, h4, h2
 		line-height 1.5
@@ -433,7 +444,7 @@ body.dashboard
 			border-radius 1000px
 			width 90%
 
-
+// Detail of a ccount
 .detail-account
 	background-color #f0f0f2
 	border-top 1px solid ccc
@@ -451,6 +462,50 @@ body.dashboard
 		width 20%
 		color color-principal
 
+// Loop of services contracted
+.header-loop
+	font-size 110%
+	padding 0
+	margin 0 5% 10px
+
+.loop-of-services
+	background-color #f0f0f2
+	border-top 1px solid ccc
+	margin-bottom 25px
+	.icon
+		height 45px
+		width 45px
+		background-size 22px
+	.loop
+		border-bottom 1px solid ccc
+		padding 15px 5%
+	.icon-container
+		float left
+		width 20%
+	.info-container
+		float left
+		width 80%
+		h3
+			margin 0
+			padding 0
+			font-size 120%
+			font-weight bold
+		ul
+			margin 0
+			padding 0
+			margin-left 15px
+
+.slide
+	float left
+	-webkit-animation-duration: 0.5s;
+	width 100%
+
+.slide:nth-child(2)
+	margin-right -100%
+
+//.slide.active
+
+// Total of the account and button to pay
 .paybox
 	p, h3
 		margin 0
