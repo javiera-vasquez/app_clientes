@@ -436,9 +436,9 @@ body.dashboard .container {
   font-weight: bold;
   margin: 0;
   padding: 0;
-  font-size: 110%;
+  font-size: 100%;
   line-height: 1.4;
-  padding: 4px 20px 4px 8px;
+  padding: 7px 20px 6px 8px;
   border: 2px solid #ea8408;
   background: url("../img/arrow-down.svg") no-repeat 96% 50%;
   background-size: 15px;
@@ -464,7 +464,7 @@ body.dashboard .container {
 }
 .info-account .dropdown ul li,
 .user-detail .dropdown ul li {
-  padding: 4px 8px;
+  padding: 8px;
   list-style: none;
   width: 100%;
   display: block;
@@ -590,27 +590,169 @@ body.dashboard .container {
 .slide:not(:first-child) {
   display: none;
 }
+.paybox {
+  margin-bottom: 25px;
+}
 .paybox p,
 .paybox h3 {
   margin: 0;
   padding: 0;
   text-align: right;
+  line-height: 1.2;
 }
 .paybox .price {
   font-size: 250%;
   color: #ea8408;
 }
 .paybox .button {
-  margin: 25px 0;
+  margin: 25px 0 15px;
 }
 .paybox .morePay {
-  margin-bottom: 25px;
   text-decoration: underline;
   text-align: center;
   font-size: 90%;
 }
 .paybox .morePay a {
   color: #474747;
+}
+.more-pay {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.more-pay .icon-container {
+  width: 20%;
+}
+.more-pay .dropdown.whit-no-drop h3 {
+  margin-top: 9px;
+}
+.more-pay .icon {
+  width: 45px;
+  height: 45px;
+  background-size: 25px;
+}
+.detail-pays table {
+  width: 100%;
+}
+.detail-pays table th,
+.detail-pays table td {
+  width: 40%;
+  color: #454545;
+}
+.detail-pays table tr {
+  border-bottom: 1px solid #ddd;
+}
+.detail-pays table tr th:last-child,
+.detail-pays table tr td:last-child {
+  text-align: right;
+  width: 20%;
+}
+.detail-pays table th {
+  padding: 0 10px 15px;
+}
+.detail-pays table td {
+  padding: 10px;
+  font-size: 90%;
+}
+.detail-pays h3 {
+  font-size: 120%;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+  color: #979797;
+}
+.movil-drop {
+  margin-bottom: 0;
+}
+.movil-drop .dropdown {
+  margin-top: 4px;
+}
+.movil-drop .icon {
+  width: 45px;
+  height: 45px;
+  background-size: 25px;
+}
+.account-graph {
+  margin-bottom: 15px;
+}
+.account-graph h4 {
+  text-align: center;
+  font-size: 100%;
+  margin: 10px 5px;
+}
+.account-graph p {
+  text-align: center;
+}
+.account-graph p a {
+  color: #000;
+  font-size: 90%;
+  background: url("../img/arrow-right-2.svg") no-repeat 0 3px;
+  background-size: 15px;
+  padding: 5px 5px 5px 18px;
+  text-decoration: underline;
+}
+.account-graph img {
+  max-width: 45%;
+  margin-bottom: 5px;
+}
+.account-services {
+  border: 1px solid #a6a6a6;
+  border-right: none;
+  border-left: none;
+}
+.account-services ul {
+  margin: 0;
+  padding: 0;
+}
+.account-services ul li {
+  float: left;
+  width: 33.3333%;
+  list-style: none;
+  padding: 10px 5px;
+  min-height: 100px;
+  background-color: #f0f0f2;
+  border-right: 1px solid #a6a6a6;
+}
+.account-services ul h4,
+.account-services ul h3,
+.account-services ul h2,
+.account-services ul p {
+  text-align: center;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.account-services ul h4 {
+  font-size: 85%;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+.account-services ul h2 {
+  color: #ea8408;
+  font-size: 250%;
+}
+.account-services ul h2 span {
+  color: #606060;
+  font-size: 50%;
+}
+.account-services ul h3 {
+  color: #606060;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  font-weight: 100;
+  font-size: 125%;
+}
+.account-services ul .legend {
+  font-size: 80%;
+  color: #606060;
+  line-height: 1.1;
+}
+.account-services ul .no-data {
+  font-size: 180%;
+  margin-top: 15px;
+}
+.account-services.three ul li {
+  width: 50%;
 }
 @-moz-keyframes animatedBackground {
   from {

@@ -65,21 +65,21 @@ $('.second-nav li').on('click', function() {
     }
 });
 
-// Swipe
-$(function() {
-  //Enable swiping...
-  $("#wachtSwipe").swipe( {
-    //Generic swipe handler for all directions
-    swipeRight:function(event, direction, distance, duration, fingerCount, fingerData) {
-      console.log("You swiped " + direction );
-    },
-    swipeLeft:function(event, direction, distance, duration, fingerCount, fingerData) {
-      console.log("You swiped " + direction );
-    },
-    //Default is 75px, set to 0 for demo so any distance triggers swipe
-     threshold: 75
-  });
-});
+// // Swipe
+// $(function() {
+//   //Enable swiping...
+//   $("#wachtSwipe").swipe( {
+//     //Generic swipe handler for all directions
+//     swipeRight:function(event, direction, distance, duration, fingerCount, fingerData) {
+//       console.log("You swiped " + direction );
+//     },
+//     swipeLeft:function(event, direction, distance, duration, fingerCount, fingerData) {
+//       console.log("You swiped " + direction );
+//     },
+//     //Default is 75px, set to 0 for demo so any distance triggers swipe
+//      threshold: 75
+//   });
+// });
 
 
 

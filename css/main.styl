@@ -382,13 +382,15 @@ body.dashboard
 	.dropdown
 		float left
 		width 75%
+		// overflow-x hidden
 		h3
+			// white-space nowrap
 			font-weight bold
 			margin 0
 			padding 0
-			font-size 110%
+			font-size 100%
 			line-height 1.4;
-			padding 4px 20px 4px 8px
+			padding 7px 20px 6px 8px
 			border 2px solid color-principal
 			background url(../img/arrow-down.svg) no-repeat 96% 50%
 			background-size 15px
@@ -406,7 +408,7 @@ body.dashboard
 			border 2px solid color-principal
 			border-top none
 			li
-				padding 4px 8px
+				padding 8px
 				list-style none
 				width 100%
 				display block
@@ -512,7 +514,6 @@ body.dashboard
 .slide:not(:first-child)
 	display none
 
-
 // .slide
 // 	float left
 // 	-webkit-animation-duration: 0.5s;
@@ -523,22 +524,161 @@ body.dashboard
 
 // Total of the account and button to pay
 .paybox
+	margin-bottom 25px
 	p, h3
 		margin 0
 		padding 0
 		text-align right
+		line-height 1.2
 	.price
 		font-size 250%
 		color color-principal
 	.button
-		margin 25px 0
+		margin 25px 0 15px
 	.morePay
-		margin-bottom 25px
 		text-decoration underline
 		text-align center
 		font-size 90%
 		a
 			color #474747
+
+
+// Details of pay
+.more-pay
+	margin-top 15px
+	margin-bottom 10px
+	.icon-container
+		width 20%
+	.dropdown.whit-no-drop h3
+		margin-top 9px
+	.icon
+		width 45px
+		height 45px
+		background-size 25px
+
+.detail-pays
+	table
+		width 100%
+		th,td
+			width 40%
+			color #454545
+		tr
+			border-bottom 1px solid ccc
+			th:last-child, td:last-child
+				text-align right
+				width 20%
+		th
+			padding 0 10px 15px
+		td
+			padding 10px
+			font-size 90%
+	h3
+		font-size 120%
+		margin-bottom 20px
+		text-align center
+		text-decoration underline
+		color #979797
+
+
+// Graph of account
+.movil-drop
+	margin-bottom 0
+	.dropdown
+		margin-top 4px
+	.icon
+		width 45px
+		height 45px
+		background-size 25px
+
+.account-graph
+	margin-bottom 15px
+	h4
+		text-align center
+		font-size 100%
+		margin 10px 5px
+	p
+		text-align center
+		a
+			color black
+			font-size 90%
+			background url(../img/arrow-right-2.svg) no-repeat 0 3px
+			background-size 15px
+			padding 5px 5px 5px 18px
+			text-decoration underline
+	img
+		max-width 45%
+		margin-bottom 5px
+
+.account-services
+	border 1px solid #a6a6a6
+	border-right none
+	border-left none
+	// margin-bottom 30px
+	ul
+		margin 0
+		padding 0
+		li
+			float left
+			width 33.3333%
+			list-style none
+			padding 10px 5px
+			min-height 100px
+			background-color #f0f0f2
+			border-right 1px solid #a6a6a6
+		h4, h3, h2, p
+			text-align center
+			line-height 1
+			padding 0
+			margin 0
+			margin-bottom 5px
+		h4
+			font-size 85%
+			margin-bottom 10px
+			line-height 1.1
+		h2
+			color color-principal
+			font-size 250%
+			span
+				color #606060
+				font-size 50%
+		h3
+			color #606060
+			margin-top -5px
+			margin-bottom 10px
+			font-weight 100
+			font-size 125%
+		.legend
+			font-size 80%
+			color #606060
+			line-height 1.1
+		.no-data
+			font-size 180%
+			margin-top 15px
+
+.account-services.three
+	ul li
+		width 50%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
