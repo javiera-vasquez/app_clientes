@@ -25,13 +25,12 @@ var animationLeft = 'animated slideInLeft';
 var animationRight = 'animated slideInRight';
 var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
-// Hide second slide
-// $('#tabs-2').hide();
-
 // Show hide slider on click
 $('.second-nav li').on('click', function() {
     // Know the ID of the element
     var buttonId = $(this).attr('id');
+    // Hide show dropdown
+    $('.dropdown ul').hide();
     // Ask for the active class
     if($(this).hasClass('active')) {
         console.log("I'm active");
@@ -41,17 +40,27 @@ $('.second-nav li').on('click', function() {
         if(buttonId == 'button-tab-1') {
             $(this).addClass('active');
             // Animation
-            // $('.slide').hide();
-            $('#tabs-1, #tabs-2').addClass(animationLeft).addClass(active).one(animationEnd, function(){
-                $(this).removeClass(animationLeft);
-            });
+            $('.slide').hide();
+            $('#tabs-1').show();
+            // $('#tabs-1, #tabs-2').addClass(animationLeft).addClass(active).one(animationEnd, function(){
+            //     $(this).removeClass(animationLeft);
+            // });
         } else if(buttonId == 'button-tab-2') {
             $(this).addClass('active');
             // Animation
-            // $('.slide').hide();
-            $('#tabs-1, #tabs-2').addClass(animationRight).addClass(active).one(animationEnd, function(){
-                $(this).removeClass(animationRight);
-            });
+            $('.slide').hide();
+            $('#tabs-2').show();
+            // $('#tabs-1, #tabs-2').addClass(animationRight).addClass(active).one(animationEnd, function(){
+            //     $(this).removeClass(animationRight);
+            // });
+        } else if(buttonId == 'button-tab-3') {
+            $(this).addClass('active');
+            // Animation
+            $('.slide').hide();
+            $('#tabs-3').show();
+            // $('#tabs-1, #tabs-2').addClass(animationRight).addClass(active).one(animationEnd, function(){
+            //     $(this).removeClass(animationRight);
+            // });
         }
     }
 });
