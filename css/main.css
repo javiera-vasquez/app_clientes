@@ -284,7 +284,7 @@ body .container.second-nav {
   padding: 16px 0 12px;
 }
 .second-nav ul li span {
-  padding: 9px;
+  padding: 9px 9px 7px;
   border-bottom: 6px solid #979797;
 }
 .second-nav ul .active {
@@ -490,6 +490,10 @@ body.dashboard .container {
 .info-account .dropdown ul li:hover,
 .user-detail .dropdown ul li:hover {
   background-color: #ddd;
+}
+.info-account .dropdown.movil,
+.user-detail .dropdown.movil {
+  margin-top: 8px;
 }
 .info-account .dropdown.whit-no-drop h3,
 .user-detail .dropdown.whit-no-drop h3 {
@@ -786,7 +790,7 @@ body.dashboard .container {
 .loop-of-detail .loop .disclaimer {
   color: #606060;
   font-size: 80%;
-  margin: 3px 0 0;
+  margin: 10px 0 0;
 }
 .loop-of-detail .loop .number {
   float: left;
@@ -802,8 +806,8 @@ body.dashboard .container {
   width: 16%;
 }
 .loop-of-detail .loop .arrow p {
-  text-align: center;
-  margin-top: 20px;
+  margin: 0;
+  margin-top: 24px;
 }
 .loop-of-detail .loop .arrow img {
   width: 80%;
@@ -828,6 +832,14 @@ body.dashboard .container {
   margin-right: 5%;
   font-size: 250%;
   line-height: 1;
+}
+.loop-of-detail .loop ul .min span {
+  color: #606060;
+  font-weight: normal;
+  font-size: 40%;
+}
+.loop-of-detail .loop ul .min.full {
+  width: 100%;
 }
 .loop-of-detail .loop.grey {
   background-color: #f0f0f2;
