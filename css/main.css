@@ -1,9 +1,16 @@
 /* Variables */
 @font-face {
   font-family: 'NeoSans';
+  src: url("../fonts/neosansstd-regular-webfont.eot");
+  src: url("../fonts/neosansstd-regular-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/neosansstd-regular-webfont.woff") format('woff'), url("../fonts/neosansstd-regular-webfont.ttf") format('truetype'), url("../fonts/neosansstd-regular-webfont.svg#NeoSansStdRegular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NeoSans';
   src: url("../fonts/neosansstd-medium-webfont.eot");
   src: url("../fonts/neosansstd-medium-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/neosansstd-medium-webfont.woff") format('woff'), url("../fonts/neosansstd-medium-webfont.ttf") format('truetype'), url("../fonts/neosansstd-medium-webfont.svg#NeoSansStdMedium") format('svg');
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }
 h1,
@@ -15,6 +22,7 @@ h6,
 p {
   line-height: 1.45;
   color: #1e1e1e;
+  font-family: 'NeoSans', sans-serif;
 }
 h1 {
   font-size: 2.2em;
@@ -39,14 +47,14 @@ p {
   color: #474747;
 }
 b {
-  font-weight: bolder !important;
+  font-weight: bold !important;
 }
 html {
   overflow-x: hidden !important;
 }
 body {
   background: #f7f7f7;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'NeoSans', sans-serif;
   font-size: 20px;
   overflow-x: hidden !important;
   color: #1e1e1e;
@@ -693,6 +701,7 @@ body.dashboard .container {
 .account-graph img {
   max-width: 45%;
   margin-bottom: 5px;
+  padding: 0 10px;
 }
 .account-services {
   border: 1px solid #a6a6a6;
@@ -746,6 +755,7 @@ body.dashboard .container {
   font-size: 80%;
   color: #606060;
   line-height: 1.1;
+  margin-bottom: 0;
 }
 .account-services ul .no-data {
   font-size: 180%;
@@ -753,6 +763,72 @@ body.dashboard .container {
 }
 .account-services.three ul li {
   width: 50%;
+}
+.bag-header .date {
+  text-align: right;
+  font-size: 80%;
+  margin-top: 10px;
+}
+.header-bag {
+  color: #606060;
+  font-size: 110%;
+  padding: 0;
+  margin: 0 5% 10px;
+}
+.loop-of-detail .loop {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 5%;
+}
+.loop-of-detail .loop .disclaimer {
+  color: #606060;
+  font-size: 80%;
+  margin: 0;
+}
+.loop-of-detail .loop .number {
+  float: left;
+  width: 40%;
+}
+.loop-of-detail .loop .number p {
+  color: #606060;
+  font-size: 100%;
+  margin-bottom: 5px;
+}
+.loop-of-detail .loop .arrow {
+  float: left;
+  width: 20%;
+}
+.loop-of-detail .loop .arrow p {
+  text-align: center;
+  margin-top: 20px;
+}
+.loop-of-detail .loop .arrow img {
+  width: 70%;
+}
+.loop-of-detail .loop ul {
+  margin: 0;
+  padding: 0;
+}
+.loop-of-detail .loop ul li {
+  float: left;
+  width: 63%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 1%;
+  color: #606060;
+  font-size: 80%;
+  line-height: 1.5;
+  font-size: bolder;
+}
+.loop-of-detail .loop ul .min {
+  width: 35%;
+  color: #ea8408;
+  font-size: 250%;
+  line-height: 1;
+}
+.loop-of-detail .loop.grey {
+  background-color: #f0f0f2;
 }
 @-moz-keyframes animatedBackground {
   from {
