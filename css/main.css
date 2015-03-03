@@ -775,6 +775,9 @@ body.dashboard .container {
   padding: 0;
   margin: 0 5% 10px;
 }
+.loop-of-detail {
+  margin-bottom: 25px;
+}
 .loop-of-detail .loop {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -783,11 +786,11 @@ body.dashboard .container {
 .loop-of-detail .loop .disclaimer {
   color: #606060;
   font-size: 80%;
-  margin: 0;
+  margin: 3px 0 0;
 }
 .loop-of-detail .loop .number {
   float: left;
-  width: 40%;
+  width: 42%;
 }
 .loop-of-detail .loop .number p {
   color: #606060;
@@ -796,14 +799,14 @@ body.dashboard .container {
 }
 .loop-of-detail .loop .arrow {
   float: left;
-  width: 20%;
+  width: 16%;
 }
 .loop-of-detail .loop .arrow p {
   text-align: center;
   margin-top: 20px;
 }
 .loop-of-detail .loop .arrow img {
-  width: 70%;
+  width: 80%;
 }
 .loop-of-detail .loop ul {
   margin: 0;
@@ -811,24 +814,26 @@ body.dashboard .container {
 }
 .loop-of-detail .loop ul li {
   float: left;
-  width: 63%;
+  width: 60%;
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-left: 1%;
   color: #606060;
   font-size: 80%;
   line-height: 1.5;
-  font-size: bolder;
+  font-weight: bold;
 }
 .loop-of-detail .loop ul .min {
   width: 35%;
-  color: #ea8408;
+  margin-right: 5%;
   font-size: 250%;
   line-height: 1;
 }
 .loop-of-detail .loop.grey {
   background-color: #f0f0f2;
+}
+.loop-of-detail .loop.grey .min {
+  color: #ea8408;
 }
 @-moz-keyframes animatedBackground {
   from {
