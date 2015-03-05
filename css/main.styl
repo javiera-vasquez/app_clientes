@@ -238,7 +238,7 @@ body .container.second-nav
 	ul
 		margin 0
 		padding 0
-		height 45px
+		height 40px
 		li
 			float left
 			list-style none
@@ -247,9 +247,10 @@ body .container.second-nav
 			text-align center
 			color #e2e2e2
 			font-size 110%
-			padding 16px 0 12px
+			// padding 10px 0 0
+			line-height 40px
 			span
-				padding 9px 9px 7px
+				padding 0 9px 5px
 				border-bottom 6px solid #979797
 		.active
 			color white
@@ -401,7 +402,7 @@ body.dashboard
 			font-size 100%
 			line-height 1.4;
 			padding 7px 20px 6px 8px
-			border 2px solid color-principal
+			border 1px solid color-principal
 			background url(../img/arrow-down.svg) no-repeat 96% 50%
 			background-size 15px
 			span
@@ -415,14 +416,14 @@ body.dashboard
 			margin 0
 			padding 0
 			background white
-			border 2px solid color-principal
+			border 1px solid color-principal
 			border-top none
 			li
 				padding 8px
 				list-style none
 				width 100%
 				display block
-				border-bottom 2px solid color-principal
+				border-bottom 1px solid color-principal
 				font-size 100%
 				span
 					font-size 90%
@@ -465,11 +466,11 @@ body.dashboard
 // Detail of a ccount
 .detail-account
 	background-color #f0f0f2
-	border-top 1px solid ccc
+	border 1px solid ccc
 	margin-bottom 25px
 	.clearfix
 		padding 10px 5% 0
-		border-bottom 1px solid ccc
+		// border-bottom 1px solid ccc
 	p.left
 		width 70%
 		font-size 100%
@@ -488,14 +489,14 @@ body.dashboard
 
 .loop-of-services
 	background-color #f0f0f2
-	border-top 1px solid ccc
+	border 1px solid ccc
 	margin-bottom 25px
 	.icon
 		height 45px
 		width 45px
 		background-size 22px
 	.loop
-		border-bottom 1px solid ccc
+		// border-bottom 1px solid ccc
 		padding 15px 5%
 	.icon-container
 		float left
@@ -606,7 +607,7 @@ body.dashboard
 	margin-bottom 15px
 	h4
 		text-align center
-		font-size 100%
+		font-size 90%
 		margin 10px 5px
 	p
 		text-align center
@@ -623,11 +624,14 @@ body.dashboard
 		padding 0 10px
 
 .account-services
-	border 1px solid #a6a6a6
-	border-right none
-	border-left none
+	border 1px solid ccc
+	background-color #f0f0f2
+	position absolute
+	width 100%
+	bottom 0
 	// margin-bottom 30px
 	ul
+		// border-bottom 1px solid ccc
 		margin 0
 		padding 0
 		li
@@ -635,9 +639,9 @@ body.dashboard
 			width 33.3333%
 			list-style none
 			padding 10px 5px
-			min-height 100px
+			// min-height 100px
 			background-color #f0f0f2
-			border-right 1px solid #a6a6a6
+			// border-right 1px solid ccc
 		h4, h3, h2, p
 			text-align center
 			line-height 1
@@ -657,17 +661,23 @@ body.dashboard
 		h3
 			color #606060
 			margin-top -5px
-			margin-bottom 10px
+			// margin-bottom 10px
+			margin-bottom 0
 			font-weight 100
 			font-size 125%
-		.legend
-			font-size 80%
-			color #606060
-			line-height 1.1
-			margin-bottom 0
-		.no-data
-			font-size 180%
-			margin-top 15px
+	.no-data
+		font-size 180%
+		margin-top 15px
+	.legend
+		font-size 80%
+		color #606060
+		line-height 1.1
+		margin-bottom 10px
+		// margin-top 10px
+		text-align center
+	.legend.left
+		text-align left
+		margin-left 5%
 
 .account-services.three
 	ul li
