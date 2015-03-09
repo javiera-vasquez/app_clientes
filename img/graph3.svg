@@ -2,17 +2,36 @@
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+	 width="500px" height="205.622px" viewBox="0 0 500 205.622" style="enable-background:new 0 0 500 205.622;" xml:space="preserve"
+	>
 <g>
-	<path style="fill:#EC9022;" d="M1.415,201.121c0-110.039,89.203-199.239,199.24-199.239c110.036,0,199.238,89.2,199.238,199.239
-		c0,110.034-89.202,199.239-199.238,199.239C90.617,400.36,1.415,311.155,1.415,201.121z M201.998,325.355
-		c68.611,0,124.231-55.621,124.231-124.234c0-68.613-55.62-124.234-124.231-124.234c-68.615,0-124.235,55.621-124.235,124.234
-		C77.763,269.734,133.383,325.355,201.998,325.355z"/>
-	<rect x="122.971" y="150.942" style="fill:none;" width="170.015" height="113.294"/>
-	<text transform="matrix(1 0 0 1 132.3975 176.8931)"><tspan x="0" y="0" style="fill:#010101; font-family:'NeoSansStd-Light'; font-size:34.927;">Uso actual</tspan><tspan x="18.524" y="70.577" style="fill:#979797; font-family:'NeoSansStd-Bold'; font-size:76.149;">5</tspan><tspan x="67.639" y="70.577" style="fill:#010101; font-family:'NeoSansStd-Regular'; font-size:34.927;">SMS</tspan></text>
+	<g>
+		<path style="fill:#B4C1BD;" d="M27.433,103.777c0-55.743,45.188-100.93,100.931-100.93s100.931,45.187,100.931,100.93
+			c0,55.744-45.187,100.934-100.931,100.934S27.433,159.521,27.433,103.777z M129.045,166.713c34.758,0,62.935-28.176,62.935-62.935
+			c0-34.758-28.177-62.935-62.935-62.935S66.11,69.021,66.11,103.778C66.11,138.537,94.287,166.713,129.045,166.713z"/>
+		<rect x="65.414" y="80.885" style="fill:none;" width="129.063" height="57.395"/>
+		<text transform="matrix(1 0 0 1 77.5908 94.0308)"><tspan x="0" y="0" style="fill:#010101; font-family:'NeoSansStd-Light'; font-size:17.6935;">SMS utilizados</tspan><tspan x="39.633" y="40.868" style="fill:#008361; font-family:'NeoSansStd-Bold'; font-size:39.4459;">5</tspan></text>
+	</g>
+	<g>
+		<path style="fill:#B4C1BD;" d="M271.55,104.39c0-55.743,45.189-100.93,100.931-100.93c55.742,0,100.933,45.188,100.933,100.93
+			c0,55.744-45.19,100.934-100.933,100.934C316.739,205.323,271.55,160.134,271.55,104.39z M373.162,167.327
+			c34.758,0,62.936-28.178,62.936-62.936s-28.178-62.936-62.936-62.936c-34.759,0-62.935,28.178-62.935,62.936
+			S338.403,167.327,373.162,167.327z"/>
+		<rect x="317.959" y="78.969" style="fill:none;" width="118.492" height="57.395"/>
+		<text transform="matrix(1 0 0 1 323.0811 92.1147)"><tspan x="0" y="0" style="fill:#010101; font-family:'NeoSansStd-Light'; font-size:17.6935;">MMS utilizados</tspan><tspan x="41.403" y="40.868" style="fill:#008361; font-family:'NeoSansStd-Bold'; font-size:39.4459;">2</tspan></text>
+	</g>
 </g>
-<path style="fill:#979797;" d="M200.58-0.171v77.177c0,0-16.708,0.506-27.412,3.46L151.336,5.774
-	C151.336,5.774,178.977-1.294,200.58-0.171z"/>
-<rect x="200.58" y="1.882" style="fill:#FFFFFF;" width="2.863" height="75.124"/>
-<polygon style="fill:#FFFFFF;" points="149.331,8.811 152.06,7.951 173.168,80.466 170.568,80.897 "/>
+<path style="fill:#008361;" d="M121.391,1.807v39.097c0,0-8.464,0.256-13.886,1.753L96.446,4.819
+	C96.446,4.819,110.447,1.238,121.391,1.807z"/>
+<rect x="121.391" y="2.847" style="fill:#FFFFFF;" width="1.449" height="38.057"/>
+<polygon style="fill:#FFFFFF;" points="95.428,6.357 96.812,5.922 107.505,42.657 106.189,42.875 "/>
+<path style="fill:#008361;" d="M378.287,1.576V40.77c0,0-2.913,0.047-5.148,0.3l-6.464-38.805
+	C366.675,2.265,373.758,1.308,378.287,1.576z"/>
+<polygon style="fill:#FFFFFF;" points="378.287,2.847 379.943,2.847 379.651,40.845 378.287,40.77 "/>
+<polygon style="fill:#FFFFFF;" points="365.259,3.7 366.882,3.5 373.16,41.128 371.805,41.283 "/>
+<g>
+	<g>
+		<path style="fill:#FFFFFF;" d="M371.5,60.811c3.225,0,3.225-5,0-5S368.275,60.811,371.5,60.811L371.5,60.811z"/>
+	</g>
+</g>
 </svg>

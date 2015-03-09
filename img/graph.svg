@@ -2,14 +2,34 @@
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="400px" viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
-<path style="fill:#EC9022;" d="M198.226,80.598c-67.202,0-121.675,54.475-121.675,121.672c0,67.199,54.473,121.671,121.675,121.671
-	c67.191,0,121.666-54.472,121.666-121.671h76.462c0,109.428-88.708,198.132-198.128,198.132
-	c-109.43,0-198.136-88.704-198.136-198.132C0.089,92.845,88.796,4.139,198.226,4.139V80.598z"/>
-<path style="fill:#979797;" d="M195.154,1.694c112.8,0,204.241,91.44,204.241,204.244l-79.602-0.077
-	c0-69.27-55.37-125.346-124.639-125.346V1.694z"/>
-<polygon style="fill:#FFFFFF;" points="400.227,204.115 319.793,204.115 319.56,207.431 399.822,208.2 "/>
-<polygon style="fill:#FFFFFF;" points="195.4,90.895 195.4,-0.43 191.536,0.117 191.595,90.511 "/>
-<rect x="101.684" y="129.411" style="fill:none;" width="197.105" height="161.979"/>
-<text transform="matrix(1 0 0 1 125.2212 155.1675)"><tspan x="0" y="0" style="fill:#010101; font-family:'NeoSansStd-Light'; font-size:34.6655;">Uso actual</tspan><tspan x="-10.562" y="82.663" style="fill:#979797; font-family:'NeoSansStd-Bold'; font-size:88.4531;">350</tspan><tspan x="160.592" y="82.663" style="fill:#979797; font-family:'NeoSansStd-Regular'; font-size:88.4531;"> </tspan><tspan x="13.398" y="124.414" style="fill:#010101; font-family:'NeoSansStd-Regular'; font-size:34.6655;">minutos</tspan></text>
+	 width="500px" height="205.622px" viewBox="0 0 500 205.622" style="enable-background:new 0 0 500 205.622;" xml:space="preserve"
+	>
+<g>
+	<g>
+		<rect x="308.61" y="52.27" style="fill:none;" width="130.406" height="75.806"/>
+		<text transform="matrix(1 0 0 1 347.6006 64.0088)"><tspan x="0" y="0" style="fill:#010101; font-family:'NeoSansStd-Light'; font-size:15.8005;">Minutos</tspan><tspan x="-6.399" y="17.237" style="fill:#010101; font-family:'NeoSansStd-Light'; font-size:15.8005;"> utilizados</tspan><tspan x="-7.321" y="53.147" style="fill:#04747F; font-family:'NeoSansStd-Bold'; font-size:34.661;">350 </tspan></text>
+		<g>
+			<path style="fill:#B3BCBC;" d="M373.029,40.609c-34.522,0-62.511,27.987-62.511,62.51c0,34.524,27.988,62.51,62.511,62.51
+				s62.51-27.985,62.51-62.51h39.283c0,56.22-45.574,101.793-101.793,101.793c-56.218,0-101.793-45.573-101.793-101.793
+				S316.812,1.327,373.029,1.327V40.609z"/>
+			<path style="fill:#04747F;" d="M371.454,0.071c57.95,0,104.932,46.977,104.932,104.933l-40.896-0.041
+				c0-35.587-28.447-64.396-64.035-64.396V0.071z"/>
+			<polygon style="fill:#FFFFFF;" points="371.469,41.151 371.469,0.594 369.755,0.836 369.78,40.979 			"/>
+			<polygon style="fill:#FFFFFF;" points="476.637,104.392 435.156,104.392 435.033,106.104 476.428,106.5 			"/>
+		</g>
+	</g>
+	<g>
+		<path style="fill:#B3BCBC;" d="M125.545,40.691c-34.657,0-62.747,28.094-62.747,62.75c0,34.655,28.09,62.747,62.747,62.747
+			c34.654,0,62.747-28.092,62.747-62.747h39.433c0,56.434-45.747,102.181-102.18,102.181c-56.432,0-102.182-45.747-102.182-102.181
+			S69.113,1.262,125.545,1.262V40.691z"/>
+		<path style="fill:#04747F;" d="M123.962,0c58.173,0,105.333,47.157,105.333,105.333l-41.052-0.04
+			c0-35.725-28.556-64.644-64.281-64.644V0z"/>
+		<polygon style="fill:#FFFFFF;" points="229.725,104.392 188.243,104.392 188.12,106.104 229.515,106.5 		"/>
+		<polygon style="fill:#FFFFFF;" points="123.979,41.237 123.979,0.525 122.256,0.77 122.282,41.065 		"/>
+	</g>
+	<rect x="75.682" y="62.523" style="fill:none;" width="99.751" height="101.118"/>
+	<text transform="matrix(1 0 0 1 99.3447 74.2617)"><tspan x="0" y="0" style="fill:#010101; font-family:'NeoSansStd-Light'; font-size:15.8005;">Minutos</tspan><tspan x="-4.7" y="17.237" style="fill:#010101; font-family:'NeoSansStd-Light'; font-size:15.8005;">utilizados</tspan><tspan x="-7.321" y="53.147" style="fill:#04747F; font-family:'NeoSansStd-Bold'; font-size:34.661;">350 </tspan></text>
+	<text transform="matrix(1 0 0 1 345.3623 135.085)"><tspan x="0" y="0" style="fill:#979797; font-family:'NeoSansStd-Bold'; font-size:15.597;">A otras </tspan><tspan x="-10.949" y="13.955" style="fill:#979797; font-family:'NeoSansStd-Bold'; font-size:15.597;">compañías</tspan></text>
+	<text transform="matrix(1 0 0 1 101.9507 148.2363)" style="fill:#979797; font-family:'NeoSansStd-Bold'; font-size:15.597;">A VTR</text>
+</g>
 </svg>

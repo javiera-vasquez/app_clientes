@@ -686,14 +686,18 @@ body.dashboard .container {
 }
 .account-graph h4 {
   text-align: center;
-  font-size: 90%;
-  margin: 10px 5px;
+  font-size: 100%;
+  margin: 10px 5px 20px;
+  line-height: 1;
+}
+.account-graph h4 small {
+  font-size: 85%;
 }
 .account-graph p {
   text-align: center;
 }
 .account-graph p a {
-  color: #000;
+  color: #1e1e1e;
   font-size: 90%;
   background: url("../img/arrow-right-2.svg") no-repeat 0 3px;
   background-size: 15px;
@@ -701,14 +705,12 @@ body.dashboard .container {
   text-decoration: underline;
 }
 .account-graph img {
-  max-width: 45%;
+  max-width: 100%;
   margin-bottom: 5px;
-  padding: 0 10px;
 }
 .account-services {
   border: 1px solid #ddd;
   background-color: #f0f0f2;
-  position: absolute;
   width: 100%;
   bottom: 0;
 }
@@ -734,13 +736,15 @@ body.dashboard .container {
   margin-bottom: 5px;
 }
 .account-services ul h4 {
-  font-size: 85%;
-  margin-bottom: 10px;
+  font-size: 75%;
   line-height: 1.1;
+  margin-bottom: 15px;
 }
 .account-services ul h2 {
-  color: #ea8408;
+  color: #7b8d8e;
   font-size: 250%;
+  line-height: 1;
+  margin-bottom: 0;
 }
 .account-services ul h2 span {
   color: #606060;
@@ -825,7 +829,7 @@ body.dashboard .container {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #606060;
+  color: #7f7f7f;
   font-size: 80%;
   line-height: 1.5;
   font-weight: bold;
@@ -848,7 +852,36 @@ body.dashboard .container {
   background-color: #f0f0f2;
 }
 .loop-of-detail .loop.grey .min {
-  color: #ea8408;
+  color: #7b8d8e;
+}
+.loop-of-detail .loop.grey .green {
+  color: #7b8d8e;
+}
+.loop-of-detail .loop.grey .no-color {
+  color: #606060;
+}
+.expired-bag {
+  border-top: 1px solid #ddd;
+  padding: 15px 5% 0;
+}
+.expired-bag table {
+  width: 100%;
+}
+.expired-bag th {
+  color: #7b8d8e;
+  padding: 5px;
+}
+.expired-bag th:last-child {
+  text-align: right;
+}
+.expired-bag td {
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+  color: #454545;
+  font-size: 90%;
+}
+.expired-bag td:last-child {
+  text-align: right;
 }
 @-moz-keyframes animatedBackground {
   from {
